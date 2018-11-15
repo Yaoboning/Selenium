@@ -25,6 +25,6 @@ for checkbox in checkboxes:
     checkbox.click()
     time.sleep(1)
 
-print(len(checkboxes))
-driver.find_elements_by_css_selector('input[type=checkbox]').pop().click()
-driver.quit()
+#print(len(checkboxes))
+#driver.find_elements_by_css_selector('input[type=checkbox]').pop().click()
+#driver.quit()
