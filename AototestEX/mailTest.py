@@ -11,17 +11,17 @@ class LoginTest():
         self.driver.get("https://mail.qq.com/cgi-bin/loginpage")
 
     def test_admin_login(self):
-        username = '392660052@qq.com'
-        password = '123456789'
+        username = '3253015738@qq.com'
+        password = 'shanxishanli'
         Login().user_login(self.driver,username,password)
-        self.driver.quit()
 
 
-    #def test_guest_login(self):
-      #  username = '56545545'
-      #  password = '45212213'
-      #  Login().user_login(self.driver,username,password)
-      #  self.driver.quit()
+
+    def test_guest_login(self):
+        username = '56545545'
+        password = '45212213'
+        Login().user_login(self.driver,username,password)
+        #self.driver.quit()
 
 LoginTest().test_admin_login()
 #LoginTest().test_guest_login()
