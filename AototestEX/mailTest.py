@@ -24,4 +24,4 @@ class LoginTest():
         #self.driver.quit()
 
 LoginTest().test_admin_login()
-#LoginTest().test_guest_login()
+LoginTest().test_guest_login()
