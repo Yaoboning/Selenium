@@ -15,7 +15,7 @@ class Login():
         sleep(3)
 
 
-    #def user_logout(self,driver):
+    def user_logout(self,driver):
         #driver.find_element_by_link_text('退出').click()
         #driver.quit()
 
