@@ -16,7 +16,7 @@ class Login():
 
 
     def user_logout(self,driver):
-        #driver.find_element_by_link_text('退出').click()
-        #driver.quit()
+        driver.find_element_by_link_text('退出').click()
+        driver.quit()
 
 
