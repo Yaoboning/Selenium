@@ -7,11 +7,11 @@ class TestCount(unittest.TestCase):
 
     def test_add(self):
         j = Count(2,3)
-        self.asertEqual(j.add(),5)
+        self.assertEqual(j.add(),5)
 
     def test_add2(self):
         j = Count(41,76)
-        self.asertEqual(j.add(),117)
+        self.assertEqual(j.add(),117)
 
     def tearDown(self):
         print("test end")
@@ -23,3 +23,5 @@ if __name__ == '__main__':
 
     runner = unittest.TextTestRunner()
     runner.run(suite)
+
+
