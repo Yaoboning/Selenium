@@ -4,7 +4,7 @@ import unittest
 class TestAdd(unittest.TestCase):
 
     def setUp(self):
-        print("test case start")
+        print("test case start!")
 
     def tearDown(self):
         print("test case end")
